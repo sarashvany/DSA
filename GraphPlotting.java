@@ -23,7 +23,7 @@ public class GraphPlotting {
 			//check if number of nodes is a positive number
 			
 			while(nodes<=0) {
-			System.out.println("Number of nodes should be postive!");
+			System.out.println("Number of nodes should be positive!");
 			System.out.println("Input number of nodes:");
 			nodes=scanner.nextInt();
 			}
@@ -31,7 +31,7 @@ public class GraphPlotting {
 			Random random=new Random();  //create a random class
 			int array[]= {random.nextInt(15)};  //array storing 15 random value
 			int length=array.length;
-			length=remdupval(array,length);
+			/*length=remdupval(array,length);
 			
 			for(int i=0;i<nodes;i++) {
 
@@ -46,7 +46,7 @@ public class GraphPlotting {
 			System.out.println("y= "+ y);
 			System.out.println("Nodes "+ i +":("+x+","+y+")");  
 			//int length=array.length;
-			/*
+			*/
 			int xcoord=random.nextInt(15);
 			int ycoord=random.nextInt(15);
 			int arr[][]= {{nodes},{2}};
@@ -68,11 +68,11 @@ public class GraphPlotting {
 			}
 			
 			
-		}*/
-	}
-	}
 		}
 	}
 	}
+		}
+	
+	
 
 
